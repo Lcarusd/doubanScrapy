@@ -6,6 +6,6 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class DoubanscrapyPipeline(object):
+class JobscrapyPipeline(object):
     def process_item(self, item, spider):
         return item
